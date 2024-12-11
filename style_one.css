@@ -1,0 +1,16 @@
+body{margin: 0px}
+section{width: 10%;height: 100vh;position: relative;text-align: center;vertical-align: middle;display: table-cell;background: black;}
+.logo img{max-width: 350px}
+.flex-row{display: flex;justify-content: center;width: 10%;margin: auto}
+h2{font-size: 25px;font-family: Times New Roman;letter-spacing: 2px}
+p{font-family: monospace;font-size: 16px}
+span.box{width: 30%;border: 1px solid;padding: 10px;box-shadow: 0 2px 8px 0 rgba(255, 0, 0), 0 6px 10px 0 rgba(255, 0, 0);border-radius: 10px;margin: 10px}
+
+@media screen and (max-width:768px){span.box{margin: 0px;width: 100%;margin-bottom: 10px}.flex-row{display: inline-grid;width: 100%}}
+
+.anim-heading{color: red;}
+a{text-decoration: none;font-weight: 600;color:red;}
+.anim-heading{overflow: hidden;white-space: nowrap;margin-right: auto;margin-left: auto;-webkit-animation: typing 5.5s steps(40, end);animation: typing 5.5s steps(40, end)}
+@-webkit-keyframes typing{from{width: 0}to{width: 100%}}
+@keyframes typing{from{width: 0}to{width: 100%}}
+p i{color: #262362;margin-right:7px}
